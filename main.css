@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.box_main {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-minus1 {
+    background-color: #ff5a5a;
+}
+
+.btn-plus1, .btn-plus3, .btn-plus5, .btn-plus10 {
+    background-color: #36D6AE;
+}
